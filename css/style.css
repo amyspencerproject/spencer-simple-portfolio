@@ -1,0 +1,262 @@
+/***** BASE STYLES *****/
+body {
+    color:#1d4063;
+    background-color: #ebf2f9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/***** GRID STYLES *****/
+.full-width {
+    margin: 0px auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/*****HEADER STYLES*****/
+header {
+    background: url("../img/clouds.png");
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #1d4063;
+    height: 400px;
+}
+
+/*****SIGNATURE FONT FOR lOGO NAME*****/
+@font-face {
+    font-family: 'Amsterdam Four';
+    src: url(../css/amsterdam-four-ttf.ttf) format("truetype");
+}
+
+header h1 {
+    font-family: 'Amsterdam Four', serif;
+    font-size: 96px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 28px;
+    margin: auto;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+/***** PORTFOLIO STYLES *****/
+#portfolio {
+    background-color: #1d4063;
+    padding-left: 75px;
+    text-align: left;
+    height: 75px;
+}
+
+#portfolio .full-width {
+    margin: 0px auto;
+    padding-bottom: 0px;
+}
+
+#portfolio h2 {
+    color: #6ea6e1;
+    font-family: 'Anonymous Pro', serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+}
+
+
+/***** Mondrian Abstract Art Challenge *****/
+#abstract {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#abstract img {
+    padding-left: 100px;
+}
+
+#abstract h3 {
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+#abstract p {
+    padding-top: 20px;
+    padding-left: 75px;
+}
+
+
+/***** Rogue Pickings Website Project *****/
+#rogue {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#rogue img {
+    padding-left: 50px;
+}
+
+#rogue h3 {
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+#rogue p {
+    padding-top: 20px;
+    padding-left: 75px;
+}
+
+
+/***** Recipe Card Project *****/
+#recipe {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#recipe img {
+    padding-left: 50px;
+}
+
+#recipe h3 {
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+#recipe p {
+    padding-top: 20px;
+    padding-left: 75px;
+}
+
+/***** ABOUT STYLES *****/
+ 
+#about-header {
+    background-color: #1d4063;
+    padding-left: 75px;
+    text-align: left;
+    height: 75px;
+}
+
+#about-header h2 {
+    color: #6ea6e1;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#about .full-width {
+    margin: auto;
+}
+
+#about img {
+    padding-left: 100px;
+    padding-top: 65px ;
+    padding-bottom: 65px;
+}
+
+#about h3 {
+    padding-top: 50px;
+}
+
+#about p {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+
+/***** CONTACT STYLES *****/
+
+#contact-header {
+    background-color: #1d4063; 
+    padding-left: 75px;
+    text-align: left;
+    height: 75px;
+}
+
+#contact-header h2 {
+    color: #6ea6e1;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#contact .full-width {
+    margin: auto;
+}
+
+#contact h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#columbine img {
+    padding-top: 50px;
+}
+
+#hire {
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+#hire img {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#hire p {
+    line-height: 30px;
+}
+
+#follow {
+    padding-right: 25px;
+    padding-top: 50px;
+}
+
+#follow ul {
+    padding-left: 10px;
+    padding-top: 35px;
+}
+
+#follow ul li {
+    list-style: none;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+#follow ul li a {
+    color: #1d4063;
+    text-decoration: none; 
+}  
+
+#follow img {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+
+/***** FOOTER STYLES *****/
+
+footer {
+    padding-top: 75px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    font-variant: small-caps;
+}
+
+
+
+
+
+ 
