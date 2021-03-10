@@ -87,6 +87,90 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* =================== Base Styles =================== */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  color: #1d4063;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1rem;
+  text-align: left;
+}
+
+ul,
+ol {
+  font-weight: bold;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+a {
+  color: ;
+  text-decoration: none;
+}
+
+/*****SIGNATURE FONT FOR lOGO NAME*****/
+@font-face {
+  font-family: 'Amsterdam Four';
+  src: url(../css/amsterdam-four-ttf.ttf) format("truetype");
+}
+
+h1 {
+  font-family: 'Amsterdam Four', serif;
+  font-size: 5.33rem;
+  text-align: center;
+}
+
+h2 {
+  color: #6ea6e1;
+  font-family: 'Anonymous Pro', serif;
+  font-size: 1.22rem;
+  line-height: 1.83rem;
+  text-align: left;
+}
+
+h3,
+h4 {}
+
+p {}
+
+img {}
+
+figure {}
+
+address {}
+
+.content-wrapper {}
+
+.blue-header {
+  width: 100%;
+  background-color: #1d4063;
+} 
+
+/* =================== Header Styles =================== */
+
+header .logo-text h2 {
+  color: #1d4063;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.56rem;
+  line-height: 2.3rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* =================== Portfolio Styles =================== */
+
+/* =================== About Styles =================== */
+
+/* =================== Contact Styles =================== */
+
+/* =================== Footer Styles =================== */
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
