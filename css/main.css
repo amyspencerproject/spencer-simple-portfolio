@@ -95,9 +95,8 @@ html {
 
 body {
   color: #1d4063;
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  text-align: left;
 }
 
 ul,
@@ -108,7 +107,7 @@ ol {
 }
 
 a {
-  color: ;
+  color: #2e669e;
   text-decoration: none;
 }
 
@@ -138,16 +137,20 @@ h4 {}
 
 p {}
 
-img {}
+img {
+  width: 100%;
+}
 
-figure {}
+figure {
+  margin: 0;
+}
 
 address {
   text-decoration: none;
 }
 
 .content-wrapper { /** Contains all content with a margin of 10%. Exceptions are background images and blue-header borders **/
-  /* width: 90%; */
+  width: 90%; 
   margin: 0;
 }
 
@@ -156,7 +159,7 @@ address {
   background-color: #1d4063;
 } 
 
-header footer {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,16 +176,23 @@ header {
   padding: 0;
 }
 
-header .content-wrapper {
+header .content-wrapper  {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0; 
+  }
+
+header .logo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap; 
 }
 
 header .logo-text h1  {
   text-align: center;
-  width: 100%;
 }
 
 header .logo-text h2 {
@@ -192,25 +202,54 @@ header .logo-text h2 {
   line-height: 2.0rem;
   font-weight: normal;
   text-align: center;
+  width: 70%;
 }
 
 header nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap; 
 }
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
+  width: 100%; /* also used 75% not sure which looks best*/
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li {
-  padding: 0 .5em; /* this should be unnecessary with a space-around in flexbox above */
+  padding: .5em; 
+}
+
+header a {
+  margin: 0; /* attempt to remove margin on logo image*/
 }
 
 
 /* =================== Portfolio Styles =================== */
+
+#portfolio .projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.projects .article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.projects .article figure img {
+}
+
 
 /* =================== About Styles =================== */
 
