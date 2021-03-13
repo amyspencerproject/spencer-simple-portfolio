@@ -136,7 +136,6 @@ h2 {
 
 h3 {
   color: #6ea6e1;
-  font-family: ;
   font-size: 1.0rem;
   line-height: 1.5;
   text-align: left;
@@ -144,9 +143,7 @@ h3 {
   margin: 0;
 }
 
-h4 {
-
-}
+h4 {}
 
 p {}
 
@@ -169,13 +166,14 @@ address {
 
 .blue-header {
   width: 100%;
-  /* background-color: #1d4063; */
-  border-top: 0.2em solid #1d4063;
-  border-bottom: 0.2em solid #1d4063; 
+  background-color: #1d4063;
+  /* border-top: 0.2em solid #1d4063;
+  border-bottom: 0.2em solid #1d4063; */
 } 
 
 .blue-header h3 {
-  font-weight: normal;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
   margin: .3em 0;
 }
 
@@ -268,18 +266,26 @@ header a {
 #portfolio .projects {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
 }
 
-.projects .article {
+#portfolio .projects .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
+#portfolio .projects .content-wrapper article {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
 .projects .article figure img {
+}
+
+.projects .article .project-description {
 }
 
 
