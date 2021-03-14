@@ -310,6 +310,7 @@ header a {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 #contact .content-wrapper {
@@ -321,6 +322,10 @@ header a {
 
 .fontawesome-icon {
   color: #6ea6e1;
+}
+
+.fontawesome-icon i {
+  padding: 0 .5em;
 }
 
 #contact img {
