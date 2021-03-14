@@ -143,9 +143,10 @@ h3 {
   margin: 0;
 }
 
-h4 {}
-
-p {}
+h4,
+p {
+  color: #1d4063;
+}
 
 img {
   width: 100%;
@@ -175,6 +176,7 @@ address {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   margin: .3em 0;
+  padding-left: 0.90em;
 }
 
 header,
@@ -285,13 +287,44 @@ header a {
 .projects .article figure img {
 }
 
-.projects .article .project-description {
-}
 
 
 /* =================== About Styles =================== */
 
+#about {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
 /* =================== Contact Styles =================== */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#contact .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+.fontawesome-icon {
+  color: #6ea6e1;
+}
+
+#contact img {
+}
 
 /* =================== Footer Styles =================== */
 
