@@ -110,15 +110,10 @@ main {
 ul,
 ol {
   font-size: .75rem;
-  font-weight: lighter;
   list-style: none;
-  text-transform: uppercase;
 }
 
-a {
-  color: #6ea6e1;
-  text-decoration: none;
-}
+
 
 /*****SIGNATURE FONT FOR lOGO NAME*****/
 @font-face {
@@ -239,6 +234,8 @@ header .logo-text h2 {
 }
 
 header nav ul {
+  font-weight: lighter;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,6 +250,8 @@ header nav ul li {
 }
 
 header a {
+  color: #6ea6e1;
+  text-decoration: none;
   margin: 0; 
 } */
 
@@ -320,11 +319,47 @@ header a {
   width: 80%;
 }
 
+.hire,
+.follow {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.hire p,
+.follow p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.hire h4,
+.follow h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hire ul,
+.follow ul {
+  padding: 0;
+}
+
+
 .fontawesome-icon {
-  color: #6ea6e1;
+  margin: 0.5em 0;
+}
+
+.fontawesome-icon a {
+  /*font-size: 0.75rem; */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.fontawesome-icon span {
+  /*font-size: 0.75rem; */
 }
 
 .fontawesome-icon i {
+  color: #6ea6e1;
   padding: 0 .5em;
 }
 
@@ -332,6 +367,12 @@ header a {
 }
 
 /* =================== Footer Styles =================== */
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: .75rem;
+}
 
 
 
