@@ -143,10 +143,6 @@ p {
   color: #1d4063;
 }
 
-img {
-  width: 100%;
-}
-
 figure {
   margin: 0;
 }
@@ -274,6 +270,7 @@ header a {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin-top: 1rem;
 }
 
 #portfolio .projects .content-wrapper article {
@@ -283,7 +280,17 @@ header a {
   width: 90%;
 }
 
-.projects .article figure img {
+.projects article figure {
+  display: flex;
+  justify-content: center;
+}
+
+.projects article figure img {
+  width: 100%;
+}
+
+figure .mondrian {
+  width: 75%;
 }
 
 
@@ -300,6 +307,16 @@ header a {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 80%;
+}
+
+#about figure {
+  display: flex;
+  justify-content: center;
+}
+
+#about img {
+  margin-top: 1rem;
   width: 80%;
 }
 
@@ -330,17 +347,26 @@ header a {
 .follow p {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  flex-basis: auto;
+  flex-grow: 2;
 }
 
 .hire h4,
 .follow h4 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+  width: 100%;
 }
 
 .hire ul,
 .follow ul {
   padding: 0;
+  flex: 2 100%;
+}
+
+.hire ul li,
+.follow ul li{
+  padding: 0.3rem 0;
 }
 
 
@@ -363,7 +389,14 @@ header a {
   padding: 0 .5em;
 }
 
-#contact img {
+#contact figure {
+  display: flex;
+  justify-content: center;
+  order: 3;
+}
+
+#contact img { 
+  width: 50%;
 }
 
 /* =================== Footer Styles =================== */
