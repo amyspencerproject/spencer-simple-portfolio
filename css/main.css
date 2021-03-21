@@ -497,8 +497,100 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+
+/* ============================ TABLET STYLES =============================== */ 
+
+@media only screen and (min-width: 768px) {
+
+  /* Base Styles */
+
+  .blue-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: .4em 0;
+    padding-left: 1em;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  .content-wrapper {
+    margin: 2rem 0;
+  }
+
+
+  /* Header */
+  header .logo-text h1 {
+    font-size: 5rem;
+  }
+
+  header .logo-text h2 {
+    font-size: 1.5rem;
+  }
+
+
+    
+  /* Portfolio */
+  
+  .project-description {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 80%;
+  }
+
+  
+  /* About */
+
+  #about .content-wrapper {
+    flex-flow: row nowrap;
+  }
+
+  #about figure {
+    width: 50%;
+  }
+
+  #about .about-text {
+    width: 50%;
+  }
+
+  /* Contact */
+
+  #contact .content-wrapper {
+    flex-flow: row  wrap;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .hire, 
+  .follow {
+    width: 45%;
+  }
+
+  #contact figure {
+    width: 33%;
+  }
+  
+} 
+
+/* ============================ DESKTOP STYLES =============================== */ 
+
+@media only screen and (min-width: 1200px) {
+  /* Header */
+  
+  /* Section Header */
+
+  /* Portfolio */
+
+  /* About */
+
+  /* Contact */
+
+  /* Footer */
+
+
 } 
 
 @media print,
