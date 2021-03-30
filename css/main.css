@@ -564,13 +564,32 @@ footer {
     width: 90%;
   }
 
-  .hire, 
+  .hire {
+    width: 33%;
+    flex: unset;
+  }
+
   .follow {
-    width: 45%;
+    width: 40%;
+    flex: unset;
+  }
+
+  .follow ul {
+    /* margin-top: 2rem; */
+  }
+
+  .follow p {
+    /* margin-top: 1.5rem; */
   }
 
   #contact figure {
-    width: 33%;
+    order: unset;
+    width: 25%;
+    align-items: center;
+  }
+  #contact img {
+    width: auto;
+    height: 50%;
   }
   
 } 
@@ -647,7 +666,44 @@ footer {
 
   /* Contact */
 
+  .hire,
+  .follow {
+    width: 33%;
+  }
+
+.hire p,
+.follow p {
+  font-size: 1.3rem;
+}
+
+.hire h4,
+.follow h4 {
+  font-size: 2rem;
+}
+
+.hire ul li,
+.follow ul li{
+  font-size: 1rem;
+}
+
+
+.fontawesome-icon {
+  font-size: 1rem;
+}
+
+#contact figure {
+  width: 25%;
+}
+#contact img {
+  width: auto;
+  height: 90%;
+}
+
+
   /* Footer */
+  footer p {
+    font-size: 1rem;
+  }
 
 
 } 
