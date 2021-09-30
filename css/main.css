@@ -258,6 +258,7 @@ header a {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 #portfolio .projects {
@@ -301,6 +302,7 @@ figure .mondrian {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 #about .content-wrapper {
